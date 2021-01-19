@@ -18,7 +18,7 @@ role: Equity Derivatives Trader, <br> London UK
 #  url: "https://www.macquarie.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Experienced trader interested in coding, technology and understanding how the world works
+bio: Equity derivatives trader who loves to code. Interested in technology, psychology and exploring the world.
 
 interests:
 - Trading

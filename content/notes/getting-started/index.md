@@ -29,8 +29,7 @@ image:
   preview_only: false
 
 authors:
-- admin
-- 吳恩達
+- cam
 
 tags:
 - Academic
