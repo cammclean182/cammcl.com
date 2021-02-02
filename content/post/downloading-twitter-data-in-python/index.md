@@ -79,7 +79,7 @@ Twint is a much younger library and the documentation is somewhat minimal. It do
 
 Both libraries are popular and work well but Twint has recently taken the lead in Github stars, I assume from data hungry scientists looking to obtain tweet data older than the last 7 days.  
 
-![alt text](images/starhistory.png "Github Star History - Twint vs Tweepy")
+![Github Star History - Twint vs Tweepy](starhistory.png "Github Star History - Twint vs Tweepy")
 
 [Github Star History - Twint vs Tweep (https://star-history.t9t.io/#twintproject/twint&tweepy/tweepy)](https://star-history.t9t.io/#twintproject/twint&tweepy/tweepy "Github Star History - Twint vs Tweep")
 
