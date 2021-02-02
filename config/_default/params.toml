@@ -53,7 +53,7 @@ description = ""
 # Enable source code highlighting?
 highlight = true
 highlight_languages = ["python","cmd"]
-highlight_style = "tomorrow-night"  # see https://highlightjs.org/static/demo/
+#highlight_style = "tomorrow-night"  # see https://highlightjs.org/static/demo/
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
@@ -77,9 +77,6 @@ show_related = {book = true, page = false, posts = true, project = true, publica
 
 ############################
 ## Contact details
-##
-## These details power the Contact widget (if enabled).
-## Additionally, for organizations, these details may be used to enrich search engine results.
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
@@ -88,20 +85,11 @@ phone = "+44 7376 248872"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {city = "London", country = "United Kingdom", country_code = "GB"}
+address = {street = "", city = "London", region = "", postcode = "United Kingdom", country = "United Kingdom", country_code = "GB"}
 
 # Geographic coordinates
-# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
 coordinates = {latitude = "51.50978550638807", longitude = "-0.12885873995499852"}
-# Directions for visitors to locate you.
-#directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
 
-# Office hours
-# A list of your office hours. To remove, set to an empty list `[]`.
-#office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
-
-# Enter an optional link for booking appointments (e.g. calendly.com).
-#appointment_url = "https://calendly.com"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
@@ -128,14 +116,16 @@ twitter = "cammclean182"
 ## Regional Settings
 ############################
 
-# Date and time format (refer to https://wowchemy.com/docs/customization/#date-format )
-#   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+# Date and time format
 date_format = "2 Jan 2006"
-#   Examples: "3:04 pm" or "15:04"
 time_format = "3:04 PM"
 
+# Available address formats.
+#[address_formats]
+#  custom = {order = ['city', 'country'], delimiters = [', ', '']}
+
 # Address format (en-us, en-gb, de, fr-fr, zh).
-address_format = "en-us"
+#address_format = "custom"
 
 ############################
 ## Advanced
@@ -256,7 +246,7 @@ plugins_js  = ["main"]
   #   3: OpenStreetMap (Mapbox)
   engine = 2
   api_key = ""
-  zoom = 15
+  zoom = 12
 
 ############################
 ## Marketing

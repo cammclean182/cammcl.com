@@ -4,6 +4,10 @@
 
 <!-- Renders the li.html content view for each content/posts/*.md -->
 <div class="universal-wrapper">
+  {{ with .Content }}
+  <div class="article-style">{{ . }}</div>
+  {{ end }}
+
   <table>
     {{ range .Pages.ByTitle}}
     {{ $target := "" }}

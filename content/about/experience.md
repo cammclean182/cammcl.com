@@ -29,7 +29,7 @@ date_format = "Jan 2006"
   
   Achievements include:
   
-  * Migrated all risk and trading operations from the South African entity to London Entity navigating and solving several regulatory, compliance and operational risk challenges. 
+  * Migrated all risk and trading operations from the South African non bank entity to London bank entity navigating and solving several regulatory, compliance and operational risk challenges. 
   * Helped launch Exotic Autocall option business for the EDT Vol business including pricing and executing the first trade over a basket of US/EU stocks
   * Developed several Python based tools and dashboards to automatically generate daily reports, conduct risk and P&L analysis and identify volatility trends and trading opportunities.
   """
