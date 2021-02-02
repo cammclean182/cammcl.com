@@ -1,0 +1,21 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<!-- Renders the li.html content view for each content/posts/*.md -->
+<div class="universal-wrapper">
+  <table>
+    {{ range .Pages.ByTitle}}
+    {{ $target := "" }}
+        <th><h2>
+          <a href="{{ .RelPermalink }}" {{ $target | safeHTMLAttr }}>{{ .Title }}</a>
+        </h2></th>
+      </tr>
+      <tr>
+        <td>{{ replace .TableOfContents `href="#` (printf `href="%s#` .Permalink) | safeHTML }}</a></td>
+      </tr>
+    {{ end }}
+  </table>
+</div>
+  
+{{- end -}}

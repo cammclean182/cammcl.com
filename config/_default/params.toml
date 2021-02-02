@@ -16,7 +16,7 @@
 theme = "minimal"
 
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Override the theme's font set (optional).
 #   Guide to font sets: https://wowchemy.com/docs/customization/#fonts
@@ -33,10 +33,6 @@ font_size = "M"
 ############################
 
 # Website type
-#   Improve how search engines understand your site.
-#   For personal sites, choose "Person".
-#   For organizations and projects, choose from https://schema.org/Organization#subtypes
-#   E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
 site_type = "Person"
 
 # Local business type (optional)
@@ -54,11 +50,10 @@ description = ""
 ## Site Features
 ############################
 
-# Enable source code highlighting? true/false
-# Documentation: https://wowchemy.com/docs/writing-markdown-latex/#highlighting-options
+# Enable source code highlighting?
 highlight = true
-highlight_languages = ["python"]  # Add support for highlighting additional languages
-highlight_style = "github"  # solarized-dark For supported styles, see https://cdnjs.com/libraries/highlight.js/
+highlight_languages = ["python","cmd"]
+highlight_style = "tomorrow-night"  # see https://highlightjs.org/static/demo/
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
@@ -78,7 +73,7 @@ privacy_pack = false
 edit_page = {repo_url = "", content_dir = "", repo_branch = "main", editable = {page = false, post = false, book = false}}
 
 # Show related content at the bottom of pages?
-show_related = {book = true, page = false, post = true, project = true, publication = true, talk = true}
+show_related = {book = true, page = false, posts = true, project = true, publication = true, talk = true}
 
 ############################
 ## Contact details

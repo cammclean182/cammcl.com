@@ -15,21 +15,61 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "r-project"
-  icon_pack = "fab"
-  name = "R"
-  description = "90%"
-  
-[[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  name = "Trading"
+  description = "Volatility, Index Arb, Prop Strategies"  
+
+[[feature]]
+  icon = "laptop-code"
+  icon_pack = "fas"
+  name = "Coding"
+  description = "Python, R, VBA, HTML, Go"
+
+
+[[feature]]
+  icon = "globe-americas"
+  icon_pack = "fas"
+  name = "Global Experience"
+  description = "Experience trading DM and EM markets"
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "users"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Team Leadership"
+  description = "Coaching and pacesetting leader"
+
+  
+[[feature]]
+  icon = "lightbulb"
+  icon_pack = "fas"
+  name = "Strategic Thinking"
+  description = "Analytical with strong ideation"
+
+
+[[feature]]
+  icon = "graduation-cap"
+  icon_pack = "fas"
+  name = "Fast Learner"
+  description = "Hunger for continuous learning and growth"
+
+
+[[feature]]
+  icon = "gem"
+  icon_pack = "fas"
+  name = "Working under pressure"
+  description = ""
+
+[[feature]]
+  icon = "search-dollar"
+  icon_pack = "fas"
+  name = "Entrepreneurial"
+  description = "Profit seeking and comfortable taking on risk"
+
+[[feature]]
+  icon = "handshake"
+  icon_pack = "fas"
+  name = "High Integrity"
+  description = "Trustworthy and responsible"
 
 +++

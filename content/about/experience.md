@@ -25,13 +25,13 @@ date_format = "Jan 2006"
   date_start = "2018-10-01"
   date_end = ""
   description = """
-  Relocated to the London office to continue trading the South African Equity Derivatives book and also build out the desk to have EU and US capabilities.
+  Relocated to the London office to continue trading South Africa whilst also building vol trading capabilities in EMEA.
   
   Achievements include:
   
-  * Trading the first Autocall
-  * Structure otc derivs 
-  * Deploying
+  * Migrated all risk and trading operations from the South African entity to London Entity navigating and solving several regulatory, compliance and operational risk challenges. 
+  * Helped launch Exotic Autocall option business for the EDT Vol business including pricing and executing the first trade over a basket of US/EU stocks
+  * Developed several Python based tools and dashboards to automatically generate daily reports, conduct risk and P&L analysis and identify volatility trends and trading opportunities.
   """
 
 [[experience]]
@@ -42,15 +42,11 @@ date_format = "Jan 2006"
   date_start = "2009-01-01"
   date_end = "2018-09-01"
   description = """
-  Head of the Equity Derivative Trading Desk managing the team responsible for:
+  Head (post 2015) of the trading desk responsible for all equity derivatives trading, delta one and index arbitrage trading, prop trading and equity finance and treasury functions in South Africa.
   
-  * Index and Single Stock Volatility Trading
-  * Propertiry Trading Strategies
-  * Deploying
-
-
   Achievements include:
-  * collaboarting with internal research teams to original new systematic strategies
+  * Approached and partnered with Macquarie research division to initiate prop trading strategies based on internal alpha models, converting academic research into tradeable systematic strategies adapted for desk risk appetite
+  * Designed and developed a VBA based vanilla and exotic option pricing tool used by all members of trading, structuring and sales teams to price derivatives, conduct market and credit risk analysis and streamline post trade bookings and generate trade confirmations.
   """
 
 [[experience]]
@@ -60,6 +56,8 @@ date_format = "Jan 2006"
   location = "Sydney, Australia"
   date_start = "2007-04-01"
   date_end = "2009-01-01"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  description = """
+  Joined Retail Derivatives Structuring team responsible for pricing, monitoring and life cycle management of Retail Warrants, Instalment Warrants, CFDs, ETOs and OTC ZCC products.
+  """
 
 +++
