@@ -8,7 +8,7 @@ summary: "A placeholder note for Markdown basics."
 type: note
 categories: ["Python", "Markdown"]
 tags: ["data science", "Markdown"]
-draft: false
+draft: true
 ---
 
 {{< toc >}}

@@ -8,7 +8,7 @@ summary: "A placeholder note for plotly chart basics."
 type: note
 categories: ["Python", "Data Visualisation"]
 tags: ["charts", "plotly"]
-draft: false
+draft: true
 ---
 
 {{< toc >}}

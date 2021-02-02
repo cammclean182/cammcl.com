@@ -2,13 +2,13 @@
 title: "Git Basics Placeholder"
 subtitle: "A placeholder note for git basics."
 author: "Cam"
-date: 2021-01-05
+date: 2021-01-01
 description: "A placeholder note for git basics."
 summary: "A placeholder note for git basics."
 type: note
 categories: ["Python", "git"]
 tags: ["data science", "git"]
-draft: false
+draft: true
 ---
 
 {{< toc >}}

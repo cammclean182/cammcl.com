@@ -8,7 +8,7 @@ summary: "A placeholder note for Pandas basics."
 type: note
 categories: ["Python", "Pandas"]
 tags: ["data science", "pandas"]
-draft: false
+draft: true
 ---
 
 {{< toc >}}

@@ -2,13 +2,13 @@
 title: "Matplotlib Placeholder"
 subtitle: "A placeholder note for matplotlib chart basics."
 author: "Cam"
-date: 2021-01-06
+date: 2021-01-01
 description: "A placeholder note for matplotlib chart basics."
 summary: "A placeholder note for matplotlib chart basics."
 type: note
 categories: ["Python", "Data Visualisation"]
 tags: ["charts", "matplotlib"]
-draft: false
+draft: true
 ---
 
 {{< toc >}}
