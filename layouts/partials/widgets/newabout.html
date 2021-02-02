@@ -1,0 +1,79 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+{{ $author := "" }}
+{{ if .author }}
+  {{ $author = .author }}
+{{ else }}
+  {{ $author = $page.Params.author }}
+{{end}}
+
+{{ $person_page_path := (printf "/authors/%s" $author) }}
+{{ $person_page := site.GetPage $person_page_path }}
+{{ if not $person_page }}
+  {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://sourcethemes.com/academic/docs/page-builder/#about " $person_page_path }}
+{{end}}
+{{ $person := $person_page.Params }}
+{{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
+{{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
+
+
+<!-- About widget is-text-light is-text-align-left -->
+<div class="content camtextcolor">
+  <!-- PROFILE IMAGE  profile-image big rounded class="profile-image big camrounded" -->
+  <img class="camavatar-circle" src="images/avatar.jpg" alt="profile image of Cam"/> 
+  <br>
+  <!-- TITLE -->
+  <camh1>
+  Hi, I am Cam
+  <br>a <span class="highlight navy">Derivatives Trader</span>
+  <br>who loves to code.
+  </camh1>
+  <!-- TITLE -->
+  <br>
+  <br>
+  <!-- DESCRIPTION -->
+  <p> This is my website. 
+  <br> A place to share <a class="link-1 aqua" href="#comingsoon">posts</a> on things I find interesting. 
+  <br> A home to host <a class="link-1 aqua" href="#comingsoon">applications</a> I've built in Python. 
+  <br> A library to store open source programming <a class="link-1 aqua" href="#comingsoon">notes</a>. 
+  <br> 
+  <br> I am passionate about
+  <!-- TEXTS TO BE TYPED -->
+  <span id="typed"></span>
+  <div id="typed-strings">
+  <p><span class="highlight green">trading and financial markets.</span></p>
+  <p><span class="highlight navy">technology and innovation.</span></p>
+  <!-- <p><span class="highlight azure">leadership and psychology.</span></p> -->
+  <p><span class="highlight grey">coding and building apps.</span></p>
+  <!-- <p><span class="highlight grey">test <a class="link-1 aqua" href="www.google.com">link</a></span></p> -->
+
+</div>
+<!-- TEXTS TO BE TYPED -->
+</p>
+    
+<p>Contact me at <a class="link-2 light" href="mailto:cameronmclean.uk@gmail.com">cameronmclean.uk@gmail.com</a></p>
+
+<ul class="network-icon" aria-hidden="true">
+  {{ range $person.social }}
+  {{ $pack := or .icon_pack "fas" }}
+  {{ $pack_prefix := $pack }}
+  {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+    {{ $pack_prefix = "fa" }}
+  {{ end }}
+  {{ $link := .link }}
+  {{ $scheme := (urls.Parse $link).Scheme }}
+  {{ $target := "" }}
+  {{ if not $scheme }}
+    {{ $link = .link | relLangURL }}
+  {{ else if in (slice "http" "https") $scheme }}
+    {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+  {{ end }}
+  <li>
+    <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+      <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} small-icon"></i>
+    </a>
+  </li>
+  {{ end }}
+</ul>
+ 
