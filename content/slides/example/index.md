@@ -13,9 +13,9 @@ slides:
   highlight_style: dracula
 ---
 
-# Create slides in Markdown with Wowchemy
+## Looking for someone to love Harley
 
-[Wowchemy](https://wowchemy.com/) | [Documentation](https://owchemy.com/docs/managing-content/#create-slides)
+![Harley](img/harley.jpg)
 
 ---
 
@@ -160,6 +160,8 @@ Create `assets/css/reveal_custom.css` with:
 ---
 
 # Questions?
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 [Ask](https://github.com/wowchemy/wowchemy-hugo-modules/discussions)
 

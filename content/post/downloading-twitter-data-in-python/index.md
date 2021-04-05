@@ -49,13 +49,13 @@ After a week of calling and still without a phone, I was frustrated and searched
 
 I also found Team Knowhow's Twitter account which had lots of activity back and forth between customers and the Team Knowhow customer support team. I've had a Twitter account for years but apart from tweeting to enter the occasional competition, I've never really used it other than as a source of news and information. I noticed others having similar issues to me so I tweeted for help.
 
-{{< tweet 1319898794830536705 >}}
+< tweet 1319898794830536705 >
 
 @TeamKnowhowUK replied nearly straight away and asked me to Direct Message them more information so they could look into it. Unfortunately it turned out the Team Knowhow service on Twitter wasn't any better than the Team Knowhow service via phone. After I sent them all the information, they would say they were looking into it and then never respond to any future messages sent via DM. Each time I followed up for an update my direct messages got ignored. I'd then tweet again publicly which would get an immediate response, again asking me to DM them my information which would then get ignored and the process would repeat.
 
 I was more than frustrated and let them know how I felt.
 
-{{< tweet 1320332221530648576 >}}
+< tweet 1320332221530648576 >
 
 To cut a long story short, there's some truth in the saying about the squeaky wheel getting the grease. After tweeting publicly a few times to highlight @TeamKnowhowUK's terrible customer service, there was eventually a happy ending when my new phone was delivered a few weeks late with a small gift voucher to apologise. I never received an explanation explaining the delay with my order but from other complaints I've read online, it looks like Currys' online store struggles to keep track of what's in stock and has a long history of selling out-of-stock items they can't deliver. Despite the happy ending I made a promise to myself that I'd never shop at Currys again.
 
